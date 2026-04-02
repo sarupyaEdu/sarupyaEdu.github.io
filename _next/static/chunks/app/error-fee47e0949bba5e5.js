@@ -1,1 +1,48 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[39],{6442:(e,n,t)=>{Promise.resolve().then(t.bind(t,9567))},9567:(e,n,t)=>{"use strict";t.r(n),t.d(n,{default:()=>l});var r=t(5155),c=t(2115);function l(e){let{error:n,reset:t}=e;return(0,c.useEffect)(()=>{console.error(n)},[n]),(0,r.jsxs)("div",{className:"min-h-screen flex flex-col items-center justify-center bg-white dark:bg-zinc-950 px-6",children:[(0,r.jsx)("h2",{className:"text-4xl font-display font-bold text-zinc-900 dark:text-white mb-4",children:"Something went wrong!"}),(0,r.jsx)("p",{className:"text-zinc-600 dark:text-zinc-400 mb-8 text-center max-w-md",children:"An unexpected error occurred. We apologize for the inconvenience."}),(0,r.jsx)("button",{onClick:()=>t(),className:"bg-emerald-500 hover:bg-emerald-600 text-zinc-950 px-8 py-3 rounded-full font-bold transition-all",children:"Try again"})]})}}},e=>{e.O(0,[441,255,358],()=>e(e.s=6442)),_N_E=e.O()}]);
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+  [39],
+  {
+    6442: (e, n, t) => {
+      Promise.resolve().then(t.bind(t, 9567));
+    },
+    9567: (e, n, t) => {
+      "use strict";
+      (t.r(n), t.d(n, { default: () => l }));
+      var r = t(5155),
+        c = t(2115);
+      function l(e) {
+        let { error: n, reset: t } = e;
+        return (
+          (0, c.useEffect)(() => {
+            console.error(n);
+          }, [n]),
+          (0, r.jsxs)("div", {
+            className:
+              "min-h-screen flex flex-col items-center justify-center bg-white dark:bg-zinc-950 px-6",
+            children: [
+              (0, r.jsx)("h2", {
+                className:
+                  "text-4xl font-display font-bold text-zinc-900 dark:text-white mb-4",
+                children: "Something went wrong!",
+              }),
+              (0, r.jsx)("p", {
+                className:
+                  "text-zinc-600 dark:text-zinc-400 mb-8 text-center max-w-md",
+                children:
+                  "An unexpected error occurred. We apologize for the inconvenience.",
+              }),
+              (0, r.jsx)("button", {
+                onClick: () => t(),
+                className:
+                  "bg-emerald-500 hover:bg-emerald-600 text-zinc-950 px-8 py-3 rounded-full font-bold transition-all",
+                children: "Try again",
+              }),
+            ],
+          })
+        );
+      }
+    },
+  },
+  (e) => {
+    (e.O(0, [441, 255, 358], () => e((e.s = 6442))), (_N_E = e.O()));
+  },
+]);
